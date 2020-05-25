@@ -3,10 +3,11 @@
     <head>
         <!-- <meta charset="UTF-8"> -->
         <title>Main</title>
+        <link rel="stylesheet" href="css/style.css"/>
         <nav>
             <ul>
-                <li><a href="http://www.mail.ru">mail.ru</a></li>
-                <li><a href="https://www.google.com">Google.com</a></li>
+                <li><a href="audio.html">audio</a></li>
+                <li><a href="video.html">video</a></li>
             </ul>
         </nav>
     </head>
@@ -15,16 +16,14 @@
         <p>ParaTest</p>
     </aside>
     <body>
-        <div class="backgroundvideo">
-            <video loop autoplay preload="metadata" muted>
-                <source src="media\video\video1.mp4">
-            </video>
-        </div>
+        <video id="backgroundvideo" loop autoplay preload="metadata" muted width="body">
+            <source src="media\video\video1.mp4">
+        </video>
         <p>Перетаскиваемые элементы</p>
         <b draggable="true">draggable1</b>
         <p><b draggable="true"><i>draggable2</i></b></p>
         <p>Картинка</p>
-        <p><a href="mail.ru"><img src="logo.jpeg">te</a></p>
+        <p><a href="mail.ru"><img src="media/pic/pic1.jpg" width="200" height="300">te</a></p>
         <p>Абривеатуры:</p>
         <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
         <p><abbr title="abcdefghijklmnopqrstuvxyz">abcdefghijklmnopqrstuvxyz</abbr></p>
