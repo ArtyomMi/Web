@@ -1,15 +1,29 @@
-body{
-    background: darkslategrey;
-    color: deeppink;
+body>nav{
+    opacity: 1;
+    background: black;
+    
+    border: 20px antiquewhite;
 }
+body{
+    opacity: 1;
+    background: 0px;
+    color: rgb(17,17,17);
+}
+/* 
 h3{
     color:gold;
-}
-.backgroundvideo{
+} */
+video{
     position: fixed;
+    top:0;
     right: 0;
-    bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    opacity: 0.5;
+    opacity: 0.7;
+    transition-property: opacity;
+    background: #000;
+    background-size: cover;
+}
+body> div.content{
+    position: relative;
 }

@@ -6,44 +6,63 @@
         <link rel="stylesheet" href="css/style.css"/>
         <nav>
             <ul>
-                <li><a href="audio.html">audio</a></li>
-                <li><a href="video.html">video</a></li>
+                <li><h3><a href="audio.html">audio</a></h3></li>
+                <li><h3><a href="video.html">video</a></h3></li>
             </ul>
         </nav>
     </head>
-    <aside>
+    <!-- <aside>
         <h3>Test</h3>
         <p>ParaTest</p>
-    </aside>
+    </aside> -->
     <body>
-        <video id="backgroundvideo" loop autoplay preload="metadata" muted width="body">
-            <source src="media\video\video1.mp4">
-        </video>
-        <p>Перетаскиваемые элементы</p>
-        <b draggable="true">draggable1</b>
-        <p><b draggable="true"><i>draggable2</i></b></p>
-        <p>Картинка</p>
-        <p><a href="mail.ru"><img src="media/pic/pic1.jpg" width="200" height="300">te</a></p>
-        <p>Абривеатуры:</p>
-        <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
-        <p><abbr title="abcdefghijklmnopqrstuvxyz">abcdefghijklmnopqrstuvxyz</abbr></p>
-        <p>Список</p>
-        <details open>
-            <ol>
-                <li>test1</li>
-                <li>test2</li>
-                <li>test3</li>
-            </ol>
-        </details>
-        <p>Скрытый элемент</p>
-        <p hidden>hdfhgfcvhncf</p>
-        <p>Редактируемые элементы:</p>
-        <article contenteditable>
-            <h2>test<code>section</code></h2>
-            <p>hfchfghxh xvnxhxfhhfx <code>section</code></p>
-        </article>
-        <section id="form">
-            <form ></form>
-        </section>
+        <div class="screen">
+                <video id="backgroundvideo" loop autoplay preload="metadata" muted width="1080s">
+                    <source src="media\video\video1.mp4">
+                </video>
+        </div>
+        <div class="content">
+            <div>
+                <p>Перетаскиваемые элементы</p>
+                <b draggable="true">draggable1</b>
+                <p><b draggable="true"><i>draggable2</i></b></p>
+
+            </div>
+            <div>
+                <p>Картинка</p>
+                <p><a href="mail.ru"><img src="media/pic/pic1.jpg" width="200" height="300">te</a></p>
+            </div>
+            <div>
+                <p>Абривеатуры:</p>
+                <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
+                <p><abbr title="abcdefghijklmnopqrstuvxyz">abcdefghijklmnopqrstuvxyz</abbr></p>
+            </div>
+            <div>
+                <p>Список</p>
+                <details open>
+                    <ol>
+                        <li>test1</li>
+                        <li>test2</li>
+                        <li>test3</li>
+                    </ol>
+                </details>
+            </div>
+            <div>
+                <p>Скрытый элемент</p>
+                <p hidden>hdfhgfcvhncf</p>
+            </div>
+            <div>
+                <p>Редактируемые элементы:</p>
+                <article contenteditable>
+                    <h2>test<code>section</code></h2>
+                    <p>hfchfghxh xvnxhxfhhfx <code>section</code></p>
+                </article>
+                <section id="form">
+                    <form ></form>
+                </section>
+            </div>
+            
+        </div>
+        
     </body>
 </html>
