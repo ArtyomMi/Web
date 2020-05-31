@@ -4,10 +4,6 @@ nav>ul{
     z-index: 1;
     border: 20px antiquewhite;
 }
-body{
-    background: 0px;
-    color: rgb(17,17,17);
-}
 
 h3> a{
     color: snow;
@@ -29,12 +25,18 @@ video{
     background: #000;
     background-size: cover;
 }
-body> div.content{
+.content{
+    overflow:auto;
+    left: 5%;
+    width: 100%;
     background-color: black;
     opacity: 0.7;
-    z-index: 0;
+    z-index: 1;
     position: relative;
-    color: red;
+    color: seashell;
 }
 body> div.content>div{
+    float: left;
+    left: 5%;
+    width: 30%;
 }

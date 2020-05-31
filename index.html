@@ -11,7 +11,7 @@
         <p>ParaTest</p>
     </aside> -->
     <body>
-        <nav>
+        <nav hidden> 
             <ul>
                 <li><h3><a href="audio.html">Audio</a></h3></li>
                 <li><h3><a href="video.html">Video</a></h3></li>
@@ -26,34 +26,40 @@
         </div>
         <div class="content">
             <div>
-                <p>Перетаскиваемые элементы</p>
-                <b draggable="true">draggable1</b>
-                <p><b draggable="true"><i>draggable2</i></b></p>
-
+                <div>
+                    <p>Перетаскиваемые элементы</p>
+                    <b draggable="true">draggable1</b>
+                    <p><b draggable="true"><i>draggable2</i></b></p>
+    
+                </div>
+                <div>
+                    <p>Абривеатура:</p>
+                    <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
+                </div>
+                <div>
+                    <p>Список</p>
+                    <details open>
+                        <ol>
+                            <li>test1</li>
+                            <li>test2</li>
+                            <li>test3</li>
+                        </ol>
+                    </details>
+                </div>
             </div>
-            <div>
-                <p>Картинка (для перехода на страницу с картинками нажмите на картинку)</p>
-                <p><a href="pic.html"><img src="media/pic/pic1.jpg" width="200" height="300"></a></p>
+            
+            <div class="links">
+                <div>
+                    <p>Картинка (для перехода на страницу с картинками нажмите на картинку)</p>
+                    <p><a href="pic.html"><img src="media/pic/pic1.jpg" width="200" height="300"></a></p>
+                </div>
             </div>
-            <div>
-                <p>Абривеатуры:</p>
-                <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
-                <p><abbr title="abcdefghijklmnopqrstuvxyz">abcdefghijklmnopqrstuvxyz</abbr></p>
-            </div>
-            <div>
-                <p>Список</p>
-                <details open>
-                    <ol>
-                        <li>test1</li>
-                        <li>test2</li>
-                        <li>test3</li>
-                    </ol>
-                </details>
-            </div>
+            
             <div>
                 <p>Скрытый элемент</p>
-                <p hidden>hdfhgfcvhncf</p>
+                <p hidden="False">hidden</p>
             </div>
+           
             <div>
                 <p>Редактируемые элементы:</p>
                 <article contenteditable>
@@ -64,8 +70,7 @@
                     <form ></form>
                 </section>
             </div>
-            
         </div>
-        
+
     </body>
 </html>
