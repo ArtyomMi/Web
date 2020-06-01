@@ -1,22 +1,23 @@
-nav>ul{
+nav>ul {
     opacity: 0.7;
     background: black;
     z-index: 1;
     border: 20px antiquewhite;
 }
 
-h3> a{
+h3>a {
     color: snow;
     z-index: 1;
 }
-h3{
-    color: seashell;
 
+h3 {
+    color: seashell;
 }
-video{
+
+video {
     z-index: -1;
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
     min-width: 100%;
     min-height: 100%;
@@ -25,31 +26,30 @@ video{
     background: #000;
     background-size: cover;
 }
-.content{
-    overflow:auto;
+
+.content {
+    z-index: 1;
+    overflow: auto;
     left: 5%;
     width: 90%;
-    /* background-color: black;
-    opacity: 0.7; */
-    z-index: 1;
     position: relative;
     color: seashell;
 }
-body> div.content>div.background{
+
+body>div.content>div.background {
     left: 5%;
     width: 90%;
     height: 600px;
     background-color: black;
     opacity: 0.7;
     z-index: 0;
-
 }
-body> div.content>div.background>div{
+
+div.background>div {
     z-index: 2;
     opacity: 1;
     float: left;
-    left: 15px;
+    margin: 10px;
     width: 30%;
     border: 2px seashell;
-
 }
