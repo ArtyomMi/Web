@@ -11,7 +11,7 @@
         <p>ParaTest</p>
     </aside> -->
     <body>
-        <nav hidden> 
+        <nav> 
             <ul>
                 <li><h3><a href="audio.html">Audio</a></h3></li>
                 <li><h3><a href="video.html">Video</a></h3></li>
@@ -25,7 +25,7 @@
                 </video>
         </div>
         <div class="content">
-            <div>
+            <div class="background">
                 <div>
                     <p>Перетаскиваемые элементы</p>
                     <b draggable="true">draggable1</b>
@@ -46,30 +46,31 @@
                         </ol>
                     </details>
                 </div>
-            </div>
-            
-            <div class="links">
+                <div class="links">
+                    <div>
+                        <p>Картинка (для перехода на страницу с картинками нажмите на картинку)</p>
+                        <p><a href="pic.html"><img src="media/pic/pic1.jpg" width="200" height="300"></a></p>
+                    </div>
+                </div>
+                
                 <div>
-                    <p>Картинка (для перехода на страницу с картинками нажмите на картинку)</p>
-                    <p><a href="pic.html"><img src="media/pic/pic1.jpg" width="200" height="300"></a></p>
+                    <p>Скрытый элемент</p>
+                    <p hidden="False">hidden</p>
+                </div>
+               
+                <div>
+                    <p>Редактируемые элементы:</p>
+                    <article contenteditable>
+                        <h2>Редактируемый заголовок</h2>
+                        <p>Редактируемый текст</p>
+                    </article>
+                    <section id="form">
+                        <form ></form>
+                    </section>
                 </div>
             </div>
             
-            <div>
-                <p>Скрытый элемент</p>
-                <p hidden="False">hidden</p>
-            </div>
            
-            <div>
-                <p>Редактируемые элементы:</p>
-                <article contenteditable>
-                    <h2>test<code>section</code></h2>
-                    <p>hfchfghxh xvnxhxfhhfx <code>section</code></p>
-                </article>
-                <section id="form">
-                    <form ></form>
-                </section>
-            </div>
         </div>
 
     </body>
