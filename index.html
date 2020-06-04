@@ -29,7 +29,7 @@
             </li>
         </ul>
     </nav>
-    <button id="Test">Показать панель навигации</button>
+    <button id="ShowLinks">Показать панель навигации</button>
     <br></br>
     <div class="screen">
         <video id="backgroundvideo" loop autoplay preload="metadata" muted width="1080s">
@@ -39,47 +39,51 @@
     <div class="content">
         <div class="background">
             <div>
-                <p>Перетаскиваемые элементы</p>
-                <b draggable="true">draggable1</b>
-                <p><b draggable="true"><i>draggable2</i></b></p>
-            </div>
-            <div>
-                <p>Абривеатура:</p>
-                <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
-            </div>
-            <div>
-                <p>Список</p>
-                <details open>
-                    <ol>
-                        <li>test1</li>
-                        <li>test2</li>
-                        <li>test3</li>
-                    </ol>
-                </details>
-            </div>
-            <div class="links">
                 <div>
-                    <p>Картинка (для перехода на страницу с картинками нажмите на картинку)</p>
-                    <p>
-                        <a href="pic.html"><img src="media/pic/pic1.jpg" width="200" height="300"></a>
-                    </p>
+                    <p>Перетаскиваемые элементы</p>
+                    <b draggable="true">draggable1</b>
+                    <p><b draggable="true"><i>draggable2</i></b></p>
+                </div>
+                <div>
+                    <p>Абривеатура:</p>
+                    <p><abbr title="Training Education Stronger Testing">TEST</abbr></p>
+                </div>
+                <div>
+                    <p>Список</p>
+                    <details open>
+                        <ol>
+                            <li>test1</li>
+                            <li>test2</li>
+                            <li>test3</li>
+                        </ol>
+                    </details>
                 </div>
             </div>
-
             <div>
-                <p>Скрытый элемент</p>
-                <p hidden="False">hidden</p>
-            </div>
+                <div class="links">
+                    <div>
+                        <p>Картинка (для перехода на страницу с картинками нажмите на картинку)</p>
+                        <p>
+                            <a href="pic.html"><img src="media/pic/pic1.jpg" width=80% height=100%></a>
+                        </p>
+                    </div>
+                </div>
 
-            <div>
-                <p>Редактируемые элементы:</p>
-                <article contenteditable>
-                    <h2>Редактируемый заголовок</h2>
-                    <p>Редактируемый текст</p>
-                </article>
-                <section id="form">
-                    <form></form>
-                </section>
+                <div>
+                    <p>Скрытый элемент</p>
+                    <p hidden="False">hidden</p>
+                </div>
+
+                <div>
+                    <p>Редактируемые элементы:</p>
+                    <article contenteditable>
+                        <h2>Редактируемый заголовок</h2>
+                        <p>Редактируемый текст</p>
+                    </article>
+                    <section id="form">
+                        <form></form>
+                    </section>
+                </div>
             </div>
         </div>
 
