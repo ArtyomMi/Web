@@ -37,12 +37,12 @@ function onmousedown(e) {
 }
 document.addEventListener('contextmenu', onContextMenu, false);
 
-var menuBtn = document.getElementsByClassName('menu-btn')
-menuBtn.addEventListener("click", console.log("Here2"));
+// var menuBtn = document.getElementById('open')
+// menuBtn.addEventListener("click", console.log("Here2"));
 
-function here() {
-    console.log("hereFun");
-}
+// function here() {
+//     console.log("hereFun");
+// }
 
 // if(btn){
 btn.addEventListener("click", show);
