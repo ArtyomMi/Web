@@ -36,6 +36,10 @@ function onmousedown(e) {
     document.removeEventListener('mousedown', onmousedown);
 }
 document.addEventListener('contextmenu', onContextMenu, false);
+
+var menuBtn = document.getElementsByClassName('menu-btn')
+menuBtn.addEventListener("click", console.log("Here2"));
+
 // if(btn){
 btn.addEventListener("click", show);
 
