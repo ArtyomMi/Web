@@ -1,8 +1,12 @@
 nav>ul {
-    opacity: 0.7;
-    background: black;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
-    border: 20px antiquewhite;
+    height: 50px;
+}
+
+nav>ul>li {
+    float: left;
+    width: 20%;
 }
 
 h3>a {
@@ -38,18 +42,21 @@ video {
 
 body>div.content>div.background {
     left: 5%;
-    width: 90%;
     height: 600px;
-    background-color: black;
-    opacity: 0.7;
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 0;
 }
 
 div.background>div {
+    opacity: 1;
+    z-index: 1;
+}
+
+div.background>div>div {
     z-index: 2;
     opacity: 1;
     float: left;
     margin: 10px;
-    width: 30%;
-    border: 2px seashell;
+    width: 28%;
+    /* border: 2px solid seashell; */
 }
