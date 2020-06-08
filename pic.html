@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Main</title>
+    <title>Pictures</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="Source/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
@@ -13,9 +13,9 @@
 <body>
     <menu class="menu">
         <li class="menu-item">
-            <button type="button" class="menu-btn">
+            <button type="button" class="menu-btn" id="openBTN">
         <i class="fa fa-folder-open"></i>
-        <span class="menu-text" id="open" class="menu-btn" >Открыть</span>
+        <span class="menu-text" class="menu-btn" >Открыть</span>
         </button>
         </li>
         <li class="menu-item disabled">
@@ -50,7 +50,7 @@
         </button>
         </li>
     </menu>
-    <nav>
+    <nav id="navi" hidden>
         <ul>
             <li>
                 <h3><a href="index.html">Main</a></h3>
@@ -66,6 +66,8 @@
             </li>
         </ul>
     </nav>
+    <button id="ShowLinks">Показать панель навигации</button>
+
     <div class="screen" style="max-width: 1200px;">
         <!-- <picture id="backgroundpic">
             <img src="media/pic/pic1.jpg" width=50% height="50%">
@@ -99,6 +101,7 @@
     <!-- scripts -->
     <script src="Source/menu.js"></script>
     <script src="Source/jQuery.js"></script>
+    <script src="Source/RBMMenu.js"></script>
     <script src="Source/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {

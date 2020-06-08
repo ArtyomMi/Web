@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <title>About</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
 
 </head>
 
 <body>
-
     <nav id="navi" hidden>
         <ul>
             <li>
@@ -26,22 +26,21 @@
             </li>
         </ul>
     </nav>
-    <button id="Test">Показать панель навигации</button>
+    <button id="ShowLinks">Показать панель навигации</button>
     <br></br>
-
-
     </div>
-    <script src="Source/menu.js"></script>
     <form action="">
         <p>Введите Ваше имя:</p>
         <input title="Name" />
         <p>Введите аддрес электроной почты:</p>
         <input title="Email" type="email" />
-
+        <br>
+        <button id="BTNSendContact">Отпраавить данные</button>
     </form>
     <form action="mailto:artemiy.mitrofanov@mail.ru" hidden>
         <button>Написать мне письмо</button>
     </form>
+    <script src="Source/menu.js"></script>
 </body>
 
 </html>
