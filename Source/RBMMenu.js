@@ -19,11 +19,7 @@ function onContextMenu(e) {
 
 function onmousedown(e) {
     var tar = e.target.id;
-    if (tar == "BTNOpen") {
-        document.open(tar);
-    } else if (tar == "BTNReload") {
-        // document.reload
-    } else if (tar == "BTNAlert") {
+    if (tar == "BTNAlert") {
         alert("Don't do this!");
     } else if (tar == "BTNReturn") {
         history.back();
