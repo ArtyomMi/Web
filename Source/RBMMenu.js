@@ -1,4 +1,4 @@
-//ovveride RBM
+// ovveride RBM
 var menu = document.querySelector('.menu');
 
 function showMenu(x, y) {
@@ -18,16 +18,19 @@ function onContextMenu(e) {
 }
 
 function onmousedown(e) {
-    hideMenu();
+    var tar = e.target.id;
+    if (tar == "BTNOpen") {
+        document.open(tar);
+    } else if (tar == "BTNReload") {
+        // document.reload
+    } else if (tar == "BTNAlert") {
+        alert("Don't do this!");
+    } else if (tar == "BTNReturn") {
+        history.back();
+    } else {
+        console.log("error");
+    }
     document.removeEventListener('mousedown', onmousedown);
+    hideMenu();
 }
 document.addEventListener('contextmenu', onContextMenu, false);
-var count = 0;
-
-function here() {
-    console.log("count")
-    count = count + 1;
-}
-var menuBtn = document.getElementById('openBTN')
-
-menuBtn.addEventListener("mousedown", here());

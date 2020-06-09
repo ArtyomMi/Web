@@ -29,18 +29,19 @@
     <button id="ShowLinks">Показать панель навигации</button>
     <br></br>
     </div>
-    <form action="">
+    <form action="" name="Form">
         <p>Введите Ваше имя:</p>
-        <input title="Name" />
+        <input title="Name" name="input" />
         <p>Введите аддрес электроной почты:</p>
-        <input title="Email" type="email" />
-        <br>
+        <input title="Email" type="email" name="input" />
+        <br><br>
         <button id="BTNSendContact">Отпраавить данные</button>
     </form>
-    <form action="mailto:artemiy.mitrofanov@mail.ru" hidden>
+    <form name="sendMe" action="mailto:artemiy.mitrofanov@mail.ru" hidden>
         <button>Написать мне письмо</button>
     </form>
     <script src="Source/menu.js"></script>
+    <script src="Source/form.js"></script>
 </body>
 
 </html>
